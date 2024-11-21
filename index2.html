@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etapa de Trabajo</title>
+  <style>
+    /* Styles for the button (you can customize them) */
+    .button {
+      background: linear-gradient(to bottom right, #4CAF50, #388E3C);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #388E3C;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Styles to center the button */
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust this height if needed */
+      background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px; /* Rounded corners for the container */
+    }
+  </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="http://localhost:8080/phpmyadmin/index.php?route=/table/export&db=tienda+digital_aarh&table=pedidos&single_table=true" class="button">Empezar</a>
+      </div>
+<h2>Etapa de Trabajo</h2>
+
+<div class="button-container">
+  <button class="button" onclick="mostrarEtapa(1)">Empezar</button> </div>
+
+<div id="contenido">
+  </div>
+
+<script>
+function mostrarEtapa(etapa) {
+  // ... (code to display content based on the selected stage)
+}
+</script>
+
+</body>
+</html>
